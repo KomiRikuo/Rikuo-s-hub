@@ -19,6 +19,8 @@ const changeTodoState = (uid:string) =>{
   })
 }
 
+console.log(1)
+//111
 const removeTodoById = (uid:string):void =>{
   userTodoListRef.value = userTodoListRef.value.filter((todo:ITodo)=>{
     return todo.id != uid
